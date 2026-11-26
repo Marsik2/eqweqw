@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "xivevisuals",
+  "version": "${version}",
+  "name": "XiveVisuals",
+  "description": "Красивое небо, частицы и удобный PvP-HUD. Клиентский мод, без автоматизации и читов.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.xivevisuals.XiveVisualsClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
